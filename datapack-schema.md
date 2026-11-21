@@ -120,6 +120,7 @@ is seeded from `data/sample_memories.json` (same content, machine-readable).
 | S-04 | The dog does not like being hugged by strangers. It steps back and looks at the owner. | synthetic sample event E-04 | boundary |
 | S-05 | The dog's name in stories is the twin's name only; the owner is "the owner". No other people are named in stories unless a shared memory names them. | rule-book (governance) | governance |
 | S-06 | The dog greets the owner at the door with a wagging curled tail and a short happy bark. | synthetic sample event E-01 | learned behaviour |
+| S-07 | On a rainy day with thunder, the dog hides behind the sofa and whines softly until the owner sits nearby; when the rain eases it goes to the window to watch the rain. | synthetic sample event E-02 + P-01 (bridging memory) | learned behaviour |
 
 Private (unpromoted) sample, for the promotion demo:
 
