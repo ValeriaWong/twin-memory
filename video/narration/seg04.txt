@@ -1,0 +1,1 @@
+The story it writes uses the thunder fear, the sofa, the owner sitting nearby — all things already in memory. Nothing invented. That is the whole point: one agent's learning, available to the next agent, without relearning.

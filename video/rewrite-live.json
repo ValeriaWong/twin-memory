@@ -1,0 +1,31 @@
+{
+ "draft": "Rain drummed on the window. The dog hid behind the sofa and whined softly until the owner sat nearby, and then its curled tail thumped once, twice, against the floor.",
+ "memories": [
+  {
+   "memory_id": "a794e6c8-fbc8-4e22-b72d-baa7141c019e",
+   "text": "On a rainy day with thunder, the dog hides behind the sofa and whines softly until the owner sits nearby; when the rain eases it goes to the window to watch the rain.",
+   "score": 0.4611739822040224
+  },
+  {
+   "memory_id": "d636e1d9-e243-4bad-a731-4131dae34597",
+   "text": "The dog seemed to watch the rain from the window for a long time this morning â unconfirmed, single observation.",
+   "score": 0.4221651802895363
+  },
+  {
+   "memory_id": "bbdb364e-2c2f-4ff2-9b13-5a83e8d00e91",
+   "text": "The dog's name in stories is the twin's name only; the owner is 'the owner'. No other people are named in stories unless a shared memory names them.",
+   "score": 0.24202503676406795
+  },
+  {
+   "memory_id": "015b6ebb-571e-4caf-9aae-9c95ec49085e",
+   "text": "The dog is afraid of thunder. When thunder sounds it hides behind the sofa and whines softly until the owner sits nearby.",
+   "score": 0.23343369064912434
+  },
+  {
+   "memory_id": "5379c202-59ea-425f-b036-7ba665a25467",
+   "text": "The dog's favourite walk is the small park two streets from home, in the morning.",
+   "score": 0.22135114385033616
+  }
+ ],
+ "match_quality": "low"
+}

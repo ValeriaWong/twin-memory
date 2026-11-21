@@ -1,0 +1,17 @@
+[mode=live] datapack=776a8481-a778-431d-adcc-2a8b8908bfff client=MekoClient
+[mode=live] datapacks: [{'created_at': '2026-11-20T18:06:11.842444Z', 'updated_at': '2026-11-20T18:06:11.842444Z', 'datapack_id': '39ebe0e3-2638-45b9-a138-a1e48407f453', 'datapack_name': 'legal-audit-synthetic', 'grant': 'owner', 'user_id': 'cd28b956-82f0-4b64-8009-ebb34bffc195', 'created_by_agent_id': 'meko_agent', 'datapack_owner_name': 'valeria wong', 'datapack_owner_email_id': 'jobtowq@163.com'}, {'created_at': '2026-11-20T18:05:26.35174Z', 'updated_at': '2026-11-20T18:05:26.35174Z', 'datapack_id': '776a8481-a778-431d-adcc-2a8b8908bfff', 'datapack_name': 'twin-memory', 'grant': 'owner', 'user_id': 'cd28b956-82f0-4b64-8009-ebb34bffc195', 'created_by_agent_id': 'meko_agent', 'datapack_owner_name': 'valeria wong', 'datapack_owner_email_id': 'jobtowq@163.com'}, {'created_at': '2026-11-20T18:02:16.565658Z', 'updated_at': '2026-11-20T18:02:16.565658Z', 'datapack_id': '448f4ce6-6d3c-4764-8fc1-2401e5267669', 'datapack_name': 'meko_default_datapack', 'grant': 'owner', 'user_id': 'cd28b956-82f0-4b64-8009-ebb34bffc195', 'created_by_agent_id': 'meko_agent', 'datapack_owner_name': 'valeria wong', 'datapack_owner_email_id': 'jobtowq@163.com'}]
+
+--- Scene A: Agent A learns, Agent B reuses ---
+Observer logged: Thunder sounded. The dog hid behind the sofa and whined softly until the owner sat nearby.
+Storyteller draft (mid): Rain drummed on the window. The dog hid behind the sofa and whined softly until the owner sat nearby, and then its curled tail thumped once, twice, against the floor.
+Memories used: ['On a rainy day with thunder, the dog hides behind the sofa a', 'The dog seemed to watch the rain from the window for a long ', 'The dog is afraid of thunder. When thunder sounds it hides b', "The dog's name in stories is the twin's name only; the owner", "The dog's favourite walk is the small park two streets from "]
+Guardian verdict on Scene A draft: ALLOW
+
+--- Scene B: the Guardian blocks human speech ---
+Draft under review: "I am afraid of the thunder," said the dog. "Please stay with me."
+Guardian verdict: BLOCK (rule R-01)
+Explanation: The draft gives the dog human speech ("I am afraid…" said by the dog). The twin never speaks human words — only dog sounds and behaviour. The fear itself is real and in shared memory (S-02), so the story can keep the fear and lose the words: hide behind the sofa, whine softly, wait for the owner.
+Trace written: /home/hatch/workspace/contextcon-pet/traces/trace-e56411e9.json and /home/hatch/workspace/contextcon-pet/traces/trace-e56411e9.md
+Trace stored as datapack artifact.
+
+Demo complete: {'mode': 'live', 'scene_a_verdict': 'allow', 'scene_b_verdict': 'block', 'scene_b_rule': 'R-01', 'trace_id': 'trace-e56411e9'}

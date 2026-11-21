@@ -1,0 +1,106 @@
+{
+ "results": {
+  "knowledge_base": [],
+  "memory": [
+   {
+    "id": "a794e6c8-fbc8-4e22-b72d-baa7141c019e",
+    "memory": "On a rainy day with thunder, the dog hides behind the sofa and whines softly until the owner sits nearby; when the rain eases it goes to the window to watch the rain.",
+    "hash": "6495f6fde3808cc920bdaef6a7b1fdc0",
+    "metadata": {
+     "sample_id": "S-07",
+     "meko_datapack_id": "776a8481-a778-431d-adcc-2a8b8908bfff"
+    },
+    "score": 0.46113249296959347,
+    "created_at": "2026-11-21T03:45:23.838788+00:00",
+    "updated_at": "2026-11-21T03:45:23.838788+00:00",
+    "raw_similarity_score": 0.46113249296959347,
+    "user_id": "cd28b956-82f0-4b64-8009-ebb34bffc195",
+    "agent_id": "observer",
+    "run_id": "92a6d7b6a5244f3598c903a3e129c16c",
+    "role": "user"
+   },
+   {
+    "id": "d636e1d9-e243-4bad-a731-4131dae34597",
+    "memory": "The dog seemed to watch the rain from the window for a long time this morning â unconfirmed, single observation.",
+    "hash": "b778d3e07483156c03bdffb7be14c7c5",
+    "metadata": {
+     "sample_id": "P-01",
+     "meko_datapack_id": "776a8481-a778-431d-adcc-2a8b8908bfff"
+    },
+    "score": 0.4221672540271588,
+    "created_at": "2026-11-20T18:17:07.805571+00:00",
+    "updated_at": "2026-11-20T18:17:07.805571+00:00",
+    "raw_similarity_score": 0.4221672540271588,
+    "user_id": "cd28b956-82f0-4b64-8009-ebb34bffc195",
+    "agent_id": "observer",
+    "run_id": "e52723670a944897b48da5ad37820ced",
+    "role": "user"
+   },
+   {
+    "id": "bbdb364e-2c2f-4ff2-9b13-5a83e8d00e91",
+    "memory": "The dog's name in stories is the twin's name only; the owner is 'the owner'. No other people are named in stories unless a shared memory names them.",
+    "hash": "1566c81b142cc2137f06a2917c098966",
+    "metadata": {
+     "sample_id": "S-05",
+     "meko_datapack_id": "776a8481-a778-431d-adcc-2a8b8908bfff"
+    },
+    "score": 0.2420125396304259,
+    "created_at": "2026-11-20T18:12:17.446655+00:00",
+    "updated_at": "2026-11-20T18:12:17.446655+00:00",
+    "raw_similarity_score": 0.2420125396304259,
+    "user_id": "cd28b956-82f0-4b64-8009-ebb34bffc195",
+    "agent_id": "observer",
+    "run_id": "b4c8f38ce4244a40a3c480aac5620595",
+    "role": "user"
+   },
+   {
+    "id": "015b6ebb-571e-4caf-9aae-9c95ec49085e",
+    "memory": "The dog is afraid of thunder. When thunder sounds it hides behind the sofa and whines softly until the owner sits nearby.",
+    "hash": "60d5b0586c8523b2836fe113df2a7a3f",
+    "metadata": {
+     "sample_id": "S-02",
+     "meko_datapack_id": "776a8481-a778-431d-adcc-2a8b8908bfff"
+    },
+    "score": 0.23335621867389478,
+    "created_at": "2026-11-20T18:12:15.457879+00:00",
+    "updated_at": "2026-11-20T18:12:15.457879+00:00",
+    "raw_similarity_score": 0.23335621867389478,
+    "user_id": "cd28b956-82f0-4b64-8009-ebb34bffc195",
+    "agent_id": "observer",
+    "run_id": "b4c8f38ce4244a40a3c480aac5620595",
+    "role": "user"
+   },
+   {
+    "id": "5379c202-59ea-425f-b036-7ba665a25467",
+    "memory": "The dog's favourite walk is the small park two streets from home, in the morning.",
+    "hash": "1b1938d162ec60d975ca788e65bec7a3",
+    "metadata": {
+     "sample_id": "S-03",
+     "meko_datapack_id": "776a8481-a778-431d-adcc-2a8b8908bfff"
+    },
+    "score": 0.22141457780319285,
+    "created_at": "2026-11-20T18:12:16.057493+00:00",
+    "updated_at": "2026-11-20T18:12:16.057493+00:00",
+    "raw_similarity_score": 0.22141457780319285,
+    "user_id": "cd28b956-82f0-4b64-8009-ebb34bffc195",
+    "agent_id": "observer",
+    "run_id": "b4c8f38ce4244a40a3c480aac5620595",
+    "role": "user"
+   }
+  ],
+  "conversation": {
+   "hits": [],
+   "thread": []
+  }
+ },
+ "token_savings": {
+  "total_tokens": 3000,
+  "memory": {
+   "tokens_sent": 1000,
+   "tokens_saved": 2000
+  },
+  "tokens_saved": 2000
+ },
+ "match_quality": "low",
+ "agent_hint": "Weak or no match: do not guess; tell the user this datapack does not cover it."
+}

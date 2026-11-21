@@ -1,0 +1,1 @@
+Now a different agent, the Storyteller, has never seen a storm. I ask it for a rainy-day story. It does not guess. It searches the datapack first.

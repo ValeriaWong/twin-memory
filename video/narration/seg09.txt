@@ -1,0 +1,1 @@
+One datapack. Three agents. The memory is shared, the rules are visible, and every decision leaves a trace you can replay.
